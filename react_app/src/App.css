@@ -1,0 +1,46 @@
+.tracker-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  text-align: center;
+  margin-left: 80vh;
+  margin-top: -3
+  0vh;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.habit {
+  margin-bottom: 30px;
+}
+
+.habit h2 {
+  margin-bottom: 10px;
+}
+
+.habit-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.day.completed {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
